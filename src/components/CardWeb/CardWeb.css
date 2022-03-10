@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body,
+.container {
+  background-color: #0a0c1b;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card-wrapper {
+  height: 100%;
+  /* width: 100%; */
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  height: 40%;
+  /* width: 75%; */
+  background-color: #1c1938;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  /* align-items: flex-start; */
+}
+
+.left {
+  flex: 0.5;
+  /* height: 100%; */
+  /* width: 100%; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 3%; */
+}
+
+.right {
+  flex: 0.4;
+  width: 100%;
+  height: 100%;
+  background-color: #b15290;
+}
+
+.right img {
+  width: 100%;
+  height: inherit;
+  opacity: 0.6;
+}
+
+/* .image img {
+  width: 100%;
+  height: inherit;
+  opacity: 0.6;
+} */
+
+.top,
+.mid,
+.bottom {
+  padding: 3% 0;
+}
+
+.top h2 {
+  font-weight: bolder;
+  font-size: 2.2em;
+  color: white;
+}
+
+.top span {
+  color: #b15290;
+}
+
+.mid p {
+  color: #ddd;
+  font-size: 0.9em;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.companies,
+.templates,
+.queries {
+  color: white;
+}
+
+.bottom p {
+  color: #ddd;
+}
