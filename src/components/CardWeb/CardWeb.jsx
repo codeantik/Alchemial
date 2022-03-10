@@ -35,7 +35,7 @@ export default function CardWeb() {
                     </div>
                     <div className="right">
                         {/* <div className="image"> */}
-                            <img src={backgroundImage} alt='image-bg' />
+                            <img src={backgroundImage} alt='im-bg' />
                         {/* </div> */}
                     </div>
                 </div>

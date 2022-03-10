@@ -7,7 +7,7 @@ export default function CardMobile() {
         <div className="card-wrapper">
             <div className="card">
                 <div className="image">
-                    <img src={backgroudImage} alt='bg-image' />
+                    <img src={backgroudImage} alt='bg-im' />
                 </div>
                 <div className="details">
                     <div className="header">
